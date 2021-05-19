@@ -1,7 +1,3 @@
-# flask-mvc-v2
-FLASK WITH MVC PRINCIPLE, with conda base
-
-# Requirement
 conda install -y uwsgi
 conda install -y gevent
 pip install flask-classful

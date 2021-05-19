@@ -127,3 +127,11 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+#flaskmvc ignored
+flask_session/
+cache_dir/
+*.pyc
+site.ini
+startApp.sh
+reload.txt
