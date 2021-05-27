@@ -132,6 +132,6 @@ dmypy.json
 flask_session/
 cache_dir/
 *.pyc
-site.ini
-startApp.sh
+/site.ini
+/startApp.sh
 reload.txt
