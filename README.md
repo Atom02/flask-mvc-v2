@@ -16,3 +16,7 @@ pip install Flask-Migrate
 pip install flask-cors
 pip install Flask-Mail
 pip install pymysql
+
+# Application Config And Starter on Sample Folder
+copy site.ini to your root directory
+copy startApp.sh to your root directory

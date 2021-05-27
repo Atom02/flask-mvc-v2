@@ -49,6 +49,7 @@ app.config['CORS_ORIGINS'] = "*" #allow form all
 # app.config['SQLALCHEMY_ENGINE_OPTIONS']={ "pool_pre_ping" : True}
 
 app.config['MARIADB'] = cfg.DB
+app.config['AUTOINITDB'] = cfg.DB['AUTOINIT']
 
 # app.config['DEBUG'] = cfgLocal.appdebug
 
