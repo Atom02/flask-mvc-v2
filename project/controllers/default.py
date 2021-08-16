@@ -16,6 +16,6 @@ def custom_static(filename):
 # this is run after all request completed
 @app.teardown_appcontext
 def teardown(error):
-    # if hasattr(g,"db"):
-    #     g.db.close()
+    if hasattr(g,"db"):
+        g.db.close()
     print("TEARDOWN")

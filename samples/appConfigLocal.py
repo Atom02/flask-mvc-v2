@@ -7,15 +7,17 @@
 # 	'authentication_source':"admin",
 # 	'connect': False
 # }
-
-# mariadbalchemy = 'mysql+pymysql://increaseweb:increase4pp@103.16.223.249/increasedb'
-
 mariadb ={
 	"host":'mariadbhost',
 	"port":3306,
 	"user":'mariadbuser',
 	"password":'mariadbpassword',
-	"db":'mariadbname'
+	"db":'mariadbname',
+	"autoinit":True #wheather auto init per request
 }
 
-appdebug = True
+environment = 'development'
+
+app_debug = True
+
+cors_origin = "*"
